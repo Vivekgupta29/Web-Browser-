@@ -74,8 +74,8 @@ class MainWindow(QMainWindow):
        
         self.show()
 
-        
-        self.setWindowTitle("Group")
+        self.setWindowIcon(QIcon("icon.png"))
+        self.setWindowTitle("Web Browser")
 
     def add_new_tab(self, qurl=None, label="Blank"):
 
